@@ -11,6 +11,7 @@ function Footer() {
               <li><a href="#why" className="text-gray-400 hover:text-white">Why us?</a></li>
               <li><a href="#about" className="text-gray-400 hover:text-white">About</a></li>
               <li><a href="#program" className="text-gray-400 hover:text-white">Program details</a></li>
+              <li><a href="#club" className="text-gray-400 hover:text-white">CSA Club</a></li>
             </ul>
           </div>
           <div>
