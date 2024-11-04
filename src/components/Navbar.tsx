@@ -24,7 +24,8 @@ export default function Navbar({ onNavigate }: { onNavigate: (page: string) => v
 
   return (
     <nav className={`fixed w-full z-50 top-0 transition-all duration-200 ${
-      isScrolled ? 'bg-background/95 backdrop-blur-md shadow-lg' : 'bg-transparent'
+      isScrolled ? 'bg-background/95 backdrop-blur-md shadow-lg' 
+      : 'bg-transparent'
     }`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
